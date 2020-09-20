@@ -1,0 +1,24 @@
+{
+  "name": "app_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd ./src && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit21p/app_backend.git"
+  },
+  "author": "Rohit Panjwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohit21p/app_backend/issues"
+  },
+  "homepage": "https://github.com/rohit21p/app_backend#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
